@@ -11,10 +11,6 @@ setup(
     license='LICENSE.txt',
     description='A Pyramid scaffold including Zurb Foundation',
     long_description=open('README.txt').read(),
-    entry_points="""\
-        [pyramid.scaffold]
-        pyfo=pyfo.scaffolds.PyramidFoundationTemplate
-    """,
     install_requires=[
         'Pyramid',
     ],

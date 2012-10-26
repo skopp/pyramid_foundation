@@ -1,11 +1,21 @@
-from distutils import setup
+import os
+
+from setuptools import setup
+
+here = os.path.abspath(os.path.dirname(__file__))
+README = open(os.path.join(here, 'README.txt')).read()
+CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
+
+requires = [
+    'pyramid',
+]
 
 setup(
-    name='PyFo',
-    version='0.0',
+    name='PyramidFoundation',
+    version='0.1',
     author='Parker Pinette',
     author_email='parker@parkerpinette.com',
-    packages=['towelstuff'],
+    packages=['pyramid_foundation'],
     scripts=[''],
     url='',
     license='LICENSE.txt',
@@ -14,4 +24,8 @@ setup(
     install_requires=[
         'Pyramid',
     ],
+    entry_points="""\
+        [pyramid.scaffold]
+        pyramid_foundation=pyramid_foundation.scaffolds:PyramidFoundationTemplate
+    """,
 )

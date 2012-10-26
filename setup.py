@@ -11,13 +11,13 @@ requires = [
 ]
 
 setup(
-    name='PyramidFoundation',
+    name='pyramid_foundation',
     version='0.1',
     author='Parker Pinette',
     author_email='parker@parkerpinette.com',
     url='https://github.com/ppinette/pyramid_foundation',
     license='LICENSE.txt',
-    description='A Pyramid scaffold including Zurb Foundation',
+    description='Pyramid scaffold to extend project with Foundation support',
     long_description=open('README.md').read(),
     install_requires=[
         'pyramid',

@@ -17,7 +17,7 @@ setup(
     author_email='parker@parkerpinette.com',
     packages=['pyramid_foundation'],
     scripts=[''],
-    url='',
+    url='https://github.com/ppinette/pyramid_foundation',
     license='LICENSE.txt',
     description='A Pyramid scaffold including Zurb Foundation',
     long_description=open('README.txt').read(),

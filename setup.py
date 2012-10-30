@@ -21,6 +21,7 @@ setup(
     long_description=open('README.md').read(),
     install_requires=[
         'pyramid',
+        'scss_tools',
     ],
     entry_points="""\
         [pyramid.scaffold]

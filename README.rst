@@ -1,5 +1,5 @@
 `pyramid_foundation <http://github.com/ppinette/pyramid_foundation>`_
-===================
+============================================================================
 
 This package provides a Pyramid scaffold which includes `Zurb Foundation <http://foundation.zurb.com/>`_
 

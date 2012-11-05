@@ -12,7 +12,7 @@ requires = [
 
 setup(
     name='pyramid_foundation',
-    version='0.1',
+    version='0.1.1',
     author='Parker Pinette',
     author_email='parker@parkerpinette.com',
     url='https://github.com/ppinette/pyramid_foundation',

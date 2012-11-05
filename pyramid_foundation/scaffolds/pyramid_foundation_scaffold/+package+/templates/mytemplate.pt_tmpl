@@ -15,11 +15,11 @@
   
   <!-- Included CSS Files (Uncompressed) -->
   <!--
-  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="${request.static_url('{{package}}:static/css/foundation.css">
   -->
   
   <!-- Included CSS Files (Compressed) -->
-  <link rel="stylesheet" href="${request.static_url('{{package}}:static/css/foundation.min.css')}">
+  <link rel="stylesheet" href="${request.static_url('{{package}}:static/css/app.min.css')}">
   <link rel="stylesheet" href="${request.static_url('{{package}}:static/css/{{package}}.css')}">
 
   <script src="${request.static_url('{{package}}:static/js/modernizr.foundation.js')}"></script>

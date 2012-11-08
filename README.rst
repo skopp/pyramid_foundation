@@ -20,7 +20,8 @@ Compass/Sass
 
 In order to use Compass, you'll need to install the Compass and Foundation gems
 
-    $ gem install compass  
+    $ gem install compass
+
     $ gem install foundation
 
 pyramid_foundation includes a config.rb to manage your styles as a compass project. For more information visit:

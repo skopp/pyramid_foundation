@@ -34,13 +34,13 @@ Files
 _____
 
 * static/config.rb                     -       Compass config file
-* static/css/project_name.css          -       Styles for included template
+* static/css/package_name.css          -       Styles for included template
 * static/css/app.css                   -       Complete Foundation styles compiled from Sass
 * static/css/foundation.css            -       Complete Foundation styles as included in CSS download
 * static/css/foundation.min.css        -       Compress Foundation styles as included in CSS download
 * static/img/*                         -       Foundation images
 * static/js/*                          -       Foundation Javascripts
-* static/sass/project_name.scss        -       Sass styles for included template
+* static/sass/package_name.scss        -       Sass styles for included template
 * static/sass/_settings.scss           -       Foundation settings  
-* static/sass/app.css                  -       Foundation Sass styles  
+* static/sass/app.scss                  -       Foundation Sass styles  
 * templates/mytemplate.pt              -       Example Pyramid template  

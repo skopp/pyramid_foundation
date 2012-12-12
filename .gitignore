@@ -5,3 +5,4 @@
 *.swp
 dist
 .sass-cache
+min

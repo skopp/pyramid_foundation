@@ -6,6 +6,7 @@ setup.py
 pyramid_foundation/__init__.py
 pyramid_foundation/scaffolds/__init__.py
 pyramid_foundation/scaffolds/__init__.py~
+pyramid_foundation/scaffolds/pyramid_foundation_template/+package+/static/config.rb
 pyramid_foundation/scaffolds/pyramid_foundation_template/+package+/static/css/+package+.css
 pyramid_foundation/scaffolds/pyramid_foundation_template/+package+/static/css/+package+.css~
 pyramid_foundation/scaffolds/pyramid_foundation_template/+package+/static/css/foundation.css
